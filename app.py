@@ -90,15 +90,15 @@ def main():
 
     st.title('Telecommunication Customer Churn Prediction ML App')
     st.write('**Our model can accurately identify customers who are likely to churn.**')
-    st.write('---')
+    # st.write('---')
 
     df = pd.read_csv('selected_features.csv')
     df1 = pd.read_csv('telco-customer-churn.csv')
 
-    st.write("""### Data Characteristics:
-             * The dataset consists of 7043 observations and 12 features.
-             * The variables include both demographic and service-specific information about the customers.
-             * The target variable is "Churn" which is a binary variable indicating whether the customer has churned or not.""")
+    st.write("""### Data Characteristics""")
+    st.write( """The dataset consists of 7043 observations and 12 features.
+              The variables include both demographic and service-specific information about the customers.
+              The target variable is "Churn" which is a binary variable indicating whether the customer has churned or not.""")
     st.write(df)
 
     st.write("""### Visualization""")
