@@ -97,8 +97,8 @@ def main():
 
     st.write("""### Data Characteristics""")
     st.write("""* The dataset consists of 7043 observations and 12 features.""")
-    st.write("""The variables include both demographic and service-specific information about the customers.""")
-    st.write("""The target variable is "Churn" which is a binary variable indicating whether the customer has churned or not.""")
+    st.write("""* The variables include both demographic and service-specific information about the customers.""")
+    st.write("""* The target variable is "Churn" which is a binary variable indicating whether the customer has churned or not.""")
     st.write(df)
 
     st.write("""### Visualization""")
